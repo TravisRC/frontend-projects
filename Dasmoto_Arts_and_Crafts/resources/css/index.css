@@ -1,0 +1,36 @@
+.banner{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+    background-image: url('../images/pattern.webp');
+}
+
+span.price{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: blue;
+}
+
+div.product{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.product h2{
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+div#brushes h2{
+    background-color: mediumspringgreen;
+}
+
+div#frames h2{
+    background-color: lightcoral;
+}
+
+div#paint h2{
+    background-color: skyblue;
+}

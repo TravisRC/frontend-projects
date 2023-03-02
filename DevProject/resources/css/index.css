@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    margin: 0px auto;
+}
+
+.navbar{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: darkslategray;
+}
+
+.navbar ul{
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.navbar li{
+    display: inline-block;
+    font-family: 'bankgothic';
+    color: rgb(222, 166, 24);
+    padding: 0px 20px;
+    text-align: center;
+}
+
+.navbar a{
+    text-decoration: none;
+    color:rgb(222, 166, 24);
+}
+
+.banner{
+    /* background-image: url("../images/Nordethren_Map.jpg"); */
+    background-color: rgb(0, 100, 0, 0.85);
+    color: rgb(222, 166, 24);
+    font-family: 'bankgothic';
+    text-align: center;
+    padding: 20px 10px 10px;
+    margin-top: 58px;
+    width: 100%;
+    border: 5px outset rgb(150, 114, 22);
+    background-image: url("https://emojis.wiki/emoji-pics/apple/fleur-de-lis-apple.png");
+}
+
+#title{
+    font-weight: 900;
+    font-size: 48px;
+    background-image: linear-gradient(darkblue, rgba(8, 194, 194, 0.75)) ;
+}
+
+#map{
+    width: 100%;
+    height: 600px;
+    border: 5px inset rgb(70, 43, 2);
+}
+
+.content{
+    text-align: center;
+    font-size: 24px;
+    color: rgb(70,43,2);
+    background-color: tan;
+    margin-top: 0;
+    padding: 40px;
+}
+
+.recruitment{
+    text-align: center;
+}
+
+ul#quests{
+    padding-left: 80px;
+}

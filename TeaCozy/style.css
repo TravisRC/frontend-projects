@@ -1,0 +1,156 @@
+*{
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+    box-sizing: border-box;
+    font-size: 22px;
+    opacity: 0.9;
+}
+
+header{
+    position:fixed;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 9px 10px;
+    top: 0;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+}
+
+body{
+    position: relative;
+    margin: 0 auto;
+}
+
+.logo{
+    position: absolute;
+    height: 50px;
+    left: 10px;
+}
+
+nav{
+    position: absolute;
+    right: 10px;
+    top: 0;
+    height: 68px;
+}
+
+nav li{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+main{
+    position: relative;
+    top: 69px;
+    z-index: -1;
+}
+
+div.jumbotron{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 700px;
+    width: 1200px;
+    background-image: url(./images/img-mission-background.webp);
+    margin: 0 auto;
+}
+
+h2{
+    font-size: 1.5em;
+}
+
+h3{
+    font-size: 1.3em;
+}
+
+h5{
+    font-size: 0.8em;
+}
+h2.jumbotron, h4.jumbotron{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 10px;
+}
+
+div.tea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align:center;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+div.items{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1000px;
+}
+
+figure.tea{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+figure.tea img{
+    height: 200px;
+    width:300px;
+}
+
+div.locations{
+    display: flex;
+    flex-direction: column;
+    background-image: url(./images/img-locations-background.webp);
+    height: 500px;
+    width: 1200px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+div.locations h2, div.address{
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+}
+
+div.address{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+address{
+    width: 300px;
+    opacity: 1;
+    margin: 15px 20px;
+    line-height: 2;
+    font-style: normal;
+}
+
+div.contact{
+    position:relative;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    line-height: 2;
+}
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    bottom: -160px;
+    padding: 20px
+}
+
+footer p{
+    margin: 0 auto;
+    font-size: 0.8em;
+}

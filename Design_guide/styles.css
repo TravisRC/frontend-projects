@@ -1,0 +1,122 @@
+/* General Malarkey */
+
+*{
+    box-sizing: border-box;
+    border: 1px solid transparent;
+  }
+  header{
+    background-color: aliceblue;
+  }
+  h1{
+    font-family: optima;
+    color: teal;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    font-size: 48px;
+  }
+  nav{
+     background-color: seagreen;
+     text-align: center;
+  }
+  nav li{
+    display: inline-block;
+    margin: 0 1px;
+    padding: 0 10px;
+    height: 30px;
+    text-transform: uppercase;
+  }
+  nav a{
+    text-decoration: none;
+    color: aliceblue;
+  }
+  .container{
+    font-family: arial;
+    border: 5px solid slategray;
+    margin: 10px auto;
+    width: 100%;
+  }
+  
+  .container h2{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+  
+  /* Color Swatches */
+  
+  .swatch{
+    display: inline-block;
+    text-align: center;
+    padding: 5px 20px;
+    width: 22%;
+    margin: 5px;
+    font-size: 16px;
+  }
+  
+  .swatch p{
+    padding: 0;
+    margin: 0;
+  }
+  
+  .aliceblue{
+    color: black;
+    background-color: aliceblue;
+  }
+  
+  .seagreen{
+    color: white;
+    background-color: seagreen;
+  }
+  
+  .teal{
+    color: white;
+    background-color: teal;
+  }
+  
+  .slategrey{
+    color: white;
+    background-color: slategray;
+  }
+  
+  /* Font Swatches */
+  .font-swatch{
+    display: inline-block;
+    width: 45%;
+    margin: 5px;
+    padding: 5px;
+  }
+  .font-label{
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: underline;
+  }
+  
+  .bold{
+    font-weight: bold;
+  }
+  
+  .italic{
+    font-style: italic;
+  }
+  
+  .arial{
+    font-family: arial;
+  }
+  
+  .courier{
+    font-family: courier;
+  }
+  
+  .mono{
+    font-family: monospace;
+  }
+  
+  .optima{
+    font-family: optima;
+  }
+  
+  /* Text Styling */
+  .text-swatch{
+    display: block;
+  }
